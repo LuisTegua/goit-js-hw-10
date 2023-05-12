@@ -1,2 +1,8 @@
-@import './common';
-@import './example';
+@import './util/color';
+@import './component/flag';
+
+
+*{
+  list-style: none;
+  padding: 0;
+}

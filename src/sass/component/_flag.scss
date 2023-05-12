@@ -1,0 +1,30 @@
+.country-list{
+  list-style: none;
+}
+.countries{
+  &__item{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  &__img{
+    width: 50px;
+    object-fit: contain;
+  }
+}
+
+.country{
+  &-info{
+    padding-left: 20px;
+  }
+  &__name{
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 5px;
+  }
+  &__img{
+    width: 100px;
+    object-fit: contain;
+  }
+}
